@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Java practical questions, source code and output screenshots for BCA students.">
+<title>Java Practical Hub | BCA</title><link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+</head>
+<body>
+<header class="topbar"><button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">☰</button><a class="brand" href="#"><span class="brand-mark">J</span>Java Practical <b>Hub</b></a><span class="top-note">BCA · JAVA PROGRAMMING</span></header>
+<div class="layout">
+<aside id="sidebar" class="sidebar"><p class="side-label">LEARNING SPACE</p><a class="nav-link active" href="#home" data-section="home">⌂ &nbsp; Overview</a><p class="side-label">PRACTICAL TOPICS</p><nav id="topicNav"></nav><div class="side-foot"><span>●</span><div><b>Practical notebook</b><small>Code · Output · Revision</small></div></div></aside>
+<main>
+<section id="home" class="hero"><div class="hero-copy"><p class="eyebrow">● YOUR JAVA LEARNING SPACE</p><h1>Learn Java.<br><em>One practical at a time.</em></h1><p class="intro">A neatly organised collection of Java practical questions, source code, and output screenshots for learning and revision.</p><a href="#library" class="button">Explore practicals <b>→</b></a></div><div class="hero-graphic"><div class="ring ring-a"></div><div class="ring ring-b"></div><div class="java-card"><span>☕</span><b>JAVA</b><small>WRITE · RUN · LEARN</small></div><div class="bubble bubble-a"><b>{ }</b><span><strong>Clean code</strong><small>Easy to follow</small></span></div><div class="bubble bubble-b"><b>▶</b><span><strong>Output included</strong><small>See the result</small></span></div></div></section>
+<section class="stats"><div><span class="stat-icon">▤</span><span><b id="topicCount">0</b><small>Topics</small></span></div><div><span class="stat-icon blue">⌘</span><span><b id="practicalCount">0</b><small>Practical entries</small></span></div><div><span class="stat-icon green">▣</span><span><b>Code + image</b><small>Your learning format</small></span></div></section>
+<section id="library" class="library"><p class="eyebrow">PRACTICAL LIBRARY</p><h2>Explore by topic</h2><p class="muted">Choose a topic or search for a practical below.</p><div class="filters"><label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Search practicals, topics or keywords..."><kbd>Ctrl K</kbd></label><select id="topicFilter" aria-label="Filter topics"><option value="all">All topics</option></select></div><div id="topicCards" class="topic-grid"></div><div id="searchResults" class="results hidden"></div></section>
+<section class="how"><div><p class="eyebrow">HOW TO USE</p><h2>Everything for your practical file.</h2><p class="muted">Each practical can include its question, Java source code, and an output screenshot. Add your screenshots whenever you're ready.</p></div><div class="steps"><p><i>01</i><span><b>Choose a topic</b><small>Browse the practical collection.</small></span></p><p><i>02</i><span><b>Read the code</b><small>Copy and study the solution.</small></span></p><p><i>03</i><span><b>Check the output</b><small>View the screenshot beside the code.</small></span></p></div></section>
+<footer><a class="brand" href="#"><span class="brand-mark">J</span>Java Practical <b>Hub</b></a><span>Made for learning and revision.</span><a href="#home">Back to top ↑</a></footer>
+</main></div>
+<dialog id="practicalDialog"><div class="dialog-head"><div><p class="eyebrow" id="dialogTopic">PRACTICAL</p><h2 id="dialogTitle">Practical title</h2></div><button id="closeDialog" class="close" aria-label="Close">✕</button></div><p id="dialogQuestion" class="question"></p><div class="code-head"><b>JAVA SOURCE CODE</b><button id="copyCode">Copy code</button></div><pre><code id="dialogCode" class="language-java"></code></pre><div class="output-head"><b>OUTPUT SCREENSHOT</b><small>Replace the placeholder with your screenshot.</small></div><div id="screenshotFrame" class="screenshot"></div></dialog>
+<div id="toast" role="status"></div><script src="practicals.js"></script><script src="script.js"></script>
+</body></html>

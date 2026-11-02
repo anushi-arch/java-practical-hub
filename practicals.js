@@ -1682,56 +1682,56 @@ const topics = [
         "number": 1,
         "title": "Enter Character",
         "question": "Read a character using InputStreamReader.",
-        "code": "package inputoutput; //declare package\nimport java.io.*; //import input output classes\npublic class Practical1{\npublic static void main(String[] args) throws IOException{\nInputStreamReader isr=new InputStreamReader(System.in); //create reader\nSystem.out.print(\"Enter a character: \"); //prompt user\nint ch=isr.read(); //read character\nSystem.out.println(\"Character: \"+(char)ch); //display character\n}\n}",
+        "code": "package inputoutput; //declare package\nimport java.io.*; //import input output classes\npublic class Practical1{\npublic static void main(String[] args) throws IOException{\nInputStreamReader a=new InputStreamReader(System.in); //create reader\nSystem.out.print(\"Enter a character: \"); //prompt user\nint ch=a.read(); //read character\nSystem.out.println(\"Character: \"+(char)ch); //display character\n}\n}",
         "screenshot": "assets/screenshots/io-practical-1.png"
       },
       {
         "number": 2,
         "title": "Enter String using BufferedReader",
         "question": "Read a line of text using BufferedReader.",
-        "code": "package inputoutput; //declare package\nimport java.io.*; //import input output classes\npublic class Practical2{\npublic static void main(String[] args) throws IOException{\nBufferedReader br=new BufferedReader(new InputStreamReader(System.in)); //create reader\nSystem.out.print(\"Enter a line: \"); //prompt user\nString line=br.readLine(); //read line\nSystem.out.println(\"You entered: \"+line); //display line\n}\n}",
+        "code": "package inputoutput; //declare package\nimport java.io.*; //import input output classes\npublic class Practical2{\npublic static void main(String[] args) throws IOException{\nBufferedReader b=new BufferedReader(new InputStreamReader(System.in)); //create reader\nSystem.out.print(\"Enter a line: \"); //prompt user\nString line=b.readLine(); //read line\nSystem.out.println(\"You entered: \"+line); //display line\n}\n}",
         "screenshot": "assets/screenshots/io-practical-2.png"
       },
       {
         "number": 3,
         "title": "Enter Integer",
         "question": "Read an integer from user input.",
-        "code": "package inputoutput; //declare package\nimport java.io.*; //import input output classes\npublic class Practical3{\npublic static void main(String[] args) throws IOException{\nBufferedReader br=new BufferedReader(new InputStreamReader(System.in)); //create reader\nSystem.out.print(\"Enter an integer: \"); //prompt user\nint n=Integer.parseInt(br.readLine()); //read integer\nSystem.out.println(\"Integer: \"+n); //display integer\n}\n}",
+        "code": "package inputoutput; //declare package\nimport java.io.*; //import input output classes\npublic class Practical3{\npublic static void main(String[] args) throws IOException{\nBufferedReader c=new BufferedReader(new InputStreamReader(System.in)); //create reader\nSystem.out.print(\"Enter an integer: \"); //prompt user\nint n=Integer.parseInt(c.readLine()); //read integer\nSystem.out.println(\"Integer: \"+n); //display integer\n}\n}",
         "screenshot": "assets/screenshots/io-practical-3.png"
       },
       {
         "number": 4,
         "title": "Enter Float",
         "question": "Read a float value from user input.",
-        "code": "package inputoutput; //declare package\nimport java.io.*; //import input output classes\npublic class Practical4{\npublic static void main(String[] args) throws IOException{\nBufferedReader br=new BufferedReader(new InputStreamReader(System.in)); //create reader\nSystem.out.print(\"Enter a float: \"); //prompt user\nfloat n=Float.parseFloat(br.readLine()); //read float\nSystem.out.println(\"Float: \"+n); //display float\n}\n}",
+        "code": "package inputoutput; //declare package\nimport java.io.*; //import input output classes\npublic class Practical4{\npublic static void main(String[] args) throws IOException{\nBufferedReader d=new BufferedReader(new InputStreamReader(System.in)); //create reader\nSystem.out.print(\"Enter a float: \"); //prompt user\nfloat n=Float.parseFloat(d.readLine()); //read float\nSystem.out.println(\"Float: \"+n); //display float\n}\n}",
         "screenshot": "assets/screenshots/io-practical-4.png"
       },
       {
         "number": 5,
         "title": "Enter Double",
         "question": "Read a double value from user input.",
-        "code": "package inputoutput; //declare package\nimport java.io.*; //import input output classes\npublic class Practical5{\npublic static void main(String[] args) throws IOException{\nBufferedReader br=new BufferedReader(new InputStreamReader(System.in)); //create reader\nSystem.out.print(\"Enter a double: \"); //prompt user\ndouble n=Double.parseDouble(br.readLine()); //read double\nSystem.out.println(\"Double: \"+n); //display double\n}\n}",
+        "code": "package inputoutput; //declare package\nimport java.io.*; //import input output classes\npublic class Practical5{\npublic static void main(String[] args) throws IOException{\nBufferedReader e=new BufferedReader(new InputStreamReader(System.in)); //create reader\nSystem.out.print(\"Enter a double: \"); //prompt user\ndouble n=Double.parseDouble(e.readLine()); //read double\nSystem.out.println(\"Double: \"+n); //display double\n}\n}",
         "screenshot": "assets/screenshots/io-practical-5.png"
       },
       {
         "number": 6,
         "title": "Enter Boolean",
         "question": "Read a boolean value from user input.",
-        "code": "package inputoutput; //declare package\nimport java.io.*; //import input output classes\npublic class Practical6{\npublic static void main(String[] args) throws IOException{\nBufferedReader br=new BufferedReader(new InputStreamReader(System.in)); //create reader\nSystem.out.print(\"Enter true or false: \"); //prompt user\nboolean b=Boolean.parseBoolean(br.readLine()); //read boolean\nSystem.out.println(\"Boolean: \"+b); //display boolean\n}\n}",
+        "code": "package inputoutput; //declare package\nimport java.io.*; //import input output classes\npublic class Practical6{\npublic static void main(String[] args) throws IOException{\nBufferedReader f=new BufferedReader(new InputStreamReader(System.in)); //create reader\nSystem.out.print(\"Enter true or false: \"); //prompt user\nboolean b=Boolean.parseBoolean(f.readLine()); //read boolean\nSystem.out.println(\"Boolean: \"+b); //display boolean\n}\n}",
         "screenshot": "assets/screenshots/io-practical-6.png"
       },
       {
         "number": 7,
         "title": "Enter Short",
         "question": "Read a short integer from user input.",
-        "code": "package inputoutput; //declare package\nimport java.io.*; //import input output classes\npublic class Practical7{\npublic static void main(String[] args) throws IOException{\nBufferedReader br=new BufferedReader(new InputStreamReader(System.in)); //create reader\nSystem.out.print(\"Enter a short integer: \"); //prompt user\nshort n=Short.parseShort(br.readLine()); //read short integer\nSystem.out.println(\"Short Integer: \"+n); //display value\n}\n}",
+        "code": "package inputoutput; //declare package\nimport java.io.*; //import input output classes\npublic class Practical7{\npublic static void main(String[] args) throws IOException{\nBufferedReader g=new BufferedReader(new InputStreamReader(System.in)); //create reader\nSystem.out.print(\"Enter a short integer: \"); //prompt user\nshort n=Short.parseShort(g.readLine()); //read short integer\nSystem.out.println(\"Short Integer: \"+n); //display value\n}\n}",
         "screenshot": "assets/screenshots/io-practical-7.png"
       },
       {
         "number": 8,
         "title": "Enter Long",
         "question": "Read a long integer from user input.",
-        "code": "package inputoutput; //declare package\nimport java.io.*; //import input output classes\npublic class Practical8{\npublic static void main(String[] args) throws IOException{\nBufferedReader br=new BufferedReader(new InputStreamReader(System.in)); //create reader\nSystem.out.print(\"Enter a long integer: \"); //prompt user\nlong n=Long.parseLong(br.readLine()); //read long integer\nSystem.out.println(\"Long Integer: \"+n); //display value\n}\n}",
+        "code": "package inputoutput; //declare package\nimport java.io.*; //import input output classes\npublic class Practical8{\npublic static void main(String[] args) throws IOException{\nBufferedReader h=new BufferedReader(new InputStreamReader(System.in)); //create reader\nSystem.out.print(\"Enter a long integer: \"); //prompt user\nlong n=Long.parseLong(h.readLine()); //read long integer\nSystem.out.println(\"Long Integer: \"+n); //display value\n}\n}",
         "screenshot": "assets/screenshots/io-practical-8.png"
       },
       {
